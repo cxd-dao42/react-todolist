@@ -6,3 +6,7 @@
 run_command: npm run start
 # Command to install or update dependencies, will execute each time a new thread created to ensure dependencies up-to-date
 dependency_command: npm install
+# Configuration for linters used in the project
+linter_config:
+  - config_path: 'package.json'
+    type: 'eslint'
